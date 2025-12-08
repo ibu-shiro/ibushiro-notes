@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "f71b4978740d0360",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5ac45b721f80932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81f6f1167feb194a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HP修正方法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HP修正方法"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75bfa9d1df416269",
+    "type": "split",
+    "children": [
+      {
+        "id": "1db0f408e096898e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6820d5f338345041",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "ee3110cf8b74a0d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "5300f642876714fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c1998018d3fdbd1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8336aa2221af362",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e54369b2886049f9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HP修正方法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "HP修正方法へのバックリンク"
+            }
+          },
+          {
+            "id": "f33089ecbf966d90",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HP修正方法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "HP修正方法からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "32083efa1b11d104",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "b66ca660faf8fe1b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "61f349abe8471e09",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HP修正方法.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "HP修正方法のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "81f6f1167feb194a",
+  "lastOpenFiles": [
+    "wordpress-export-md/article/%e3%80%90%e7%9c%8b%e8%ad%b7%e5%ad%a6%e7%94%9f%e5%bf%85%e8%a6%8b%ef%bc%81%e3%80%91%e7%9c%8b%e8%ad%b7%e5%b8%ab%e3%82%82%e8%96%ac%e3%81%ae%e7%9f%a5%e8%ad%98%e3%81%8c%e5%bf%85%e8%a6%81%ef%bc%9f%e7%90%86.md",
+    "wordpress-export-md/article",
+    "wordpress-export-md/question/%e7%9c%8b%e8%ad%b7%e5%b8%ab%e5%9b%bd%e5%ae%b6%e8%a9%a6%e9%a8%93%e3%80%80%e7%ac%ac104%e5%9b%9e%e3%80%80%e8%96%ac%e7%90%86%e5%ad%a6%e9%96%a2%e9%80%a3%e5%95%8f%e9%a1%8c%e3%80%8e2014%e5%b9%b4%e3%80%8f.md",
+    "wordpress-export-md/question",
+    "wordpress-export-md/disease/%e6%84%9f%e6%9f%93%e7%97%87%ef%bc%9a%e6%84%9f%e6%9f%93%e4%ba%88%e9%98%b2%e3%81%8b%e3%82%89%e6%b2%bb%e7%99%82%e3%81%be%e3%81%a7%f0%9f%92%8a.md",
+    "wordpress-export-md/disease",
+    "wordpress-export-md/lecture/adme%e3%81%a8%e3%81%af%ef%bc%9f%ef%bc%9aa%e5%90%b8%e5%8f%8e%e3%80%81d%e5%88%86%e5%b8%83%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%f0%9f%92%8a%e8%96%ac%e7%89%a9%e6%b2%bb%e7%99%82%e3%81%a8%e7%9c%8b%e8%ad%b7%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%f0%9f%92%8a%e8%96%ac%e3%81%ae%e5%89%a4%e5%bd%a2%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%f0%9f%92%8a%e8%96%ac%e3%81%ae%e5%89%a4%e5%bd%a2%ef%bc%9a%e5%a4%96%e7%94%a8%e5%89%a4%e3%83%bb%e6%b3%a8%e5%b0%84%e5%89%a4%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%f0%9f%92%8a%e7%9c%8b%e8%ad%b7%e5%ad%a6%e7%94%9f%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e8%96%ac%e7%90%86%e5%ad%a6%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%e8%96%ac%e3%81%ae%e5%89%a4%e5%bd%a2%ef%bc%9a%e6%b3%a8%e5%b0%84%e5%89%a4%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%e8%96%ac%e3%81%8c%e4%bd%9c%e7%94%a8%e3%81%99%e3%82%8b%e4%bb%95%e7%b5%84%e3%81%bf%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%e6%a8%99%e7%9a%84%e4%bd%9c%e7%94%a8%e7%82%b9%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%f0%9f%92%8a%e3%80%9c%e5%8f%97%e5%ae%b9%e4%bd%93%e7%b7%a8%e3%80%9c.md",
+    "wordpress-export-md/lecture/%e5%8f%97%e5%ae%b9%e4%bd%93%ef%bc%9ag%e3%82%bf%e3%83%b3%e3%83%91%e3%82%af%e8%b3%aa%e5%85%b1%e5%bd%b9%e5%9e%8b%e5%8f%97%e5%ae%b9%e4%bd%93%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%e5%8c%bb%e8%96%ac%e5%93%81%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%b3%95%e5%be%8b%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture/%e3%82%a4%e3%82%aa%e3%83%b3%e3%83%81%e3%83%a3%e3%83%8d%e3%83%ab%e3%83%bb%e9%85%b5%e7%b4%a0%e3%83%bb%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b9%e3%83%9d%e3%83%bc%e3%82%bf%e3%83%bc%f0%9f%92%8a.md",
+    "wordpress-export-md/lecture",
+    "wordpress-export-md",
+    "wp-to-markdown-Converter/main.js",
+    "wp-to-markdown-Converter/style.css",
+    "wp-to-markdown-Converter/index.html",
+    "wp-to-markdown-Converter",
+    "wp-to-markdown/main.js",
+    "テスト.md",
+    "HP修正方法.md"
+  ]
+}

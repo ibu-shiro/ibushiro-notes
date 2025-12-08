@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress XML → Markdown コンバーター</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- JSZip CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <!-- Turndown (HTML to Markdown) CDN -->
+    <script src="https://unpkg.com/turndown@7.1.2/dist/turndown.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 WordPress XML → Markdown コンバーター</h1>
+            <p class="description">WordPress のエクスポート XML ファイルを Markdown に変換します。カテゴリーごとにフォルダー分けされた Zip ファイルとしてダウンロードできます。</p>
+        </header>
+
+        <main>
+            <!-- ファイル選択セクション -->
+            <section class="section">
+                <h2>1. XML ファイルを選択</h2>
+                <div class="file-input-wrapper">
+                    <input type="file" id="xmlFile" accept=".xml" />
+                    <label for="xmlFile" class="file-label">📁 ファイルを選択</label>
+                    <span id="fileName" class="file-name">選択されていません</span>
+                </div>
+            </section>
+
+            <!-- オプション設定セクション -->
+            <section class="section">
+                <h2>2. オプション設定</h2>
+                
+                <div class="option-group">
+                    <h3>ファイル名ルール</h3>
+                    <label class="radio-label">
+                        <input type="radio" name="filenameRule" value="slug" checked>
+                        <span>slug.md（例: sample-post.md）</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="filenameRule" value="date-slug">
+                        <span>YYYY-MM-DD-slug.md（例: 2025-01-01-sample-post.md）</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="filenameRule" value="id-slug">
+                        <span>postId-slug.md（例: 123-sample-post.md）</span>
+                    </label>
+                </div>
+
+                <div class="option-group">
+                    <h3>フロントマター</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="includeFrontmatter" checked>
+                        <span>YAML フロントマターを含める（タイトル、日付、カテゴリーなど）</span>
+                    </label>
+                </div>
+
+                <div class="option-group">
+                    <h3>記事ステータス</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="includeDrafts">
+                        <span>下書き（draft）も含める</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- 変換実行ボタン -->
+            <section class="section">
+                <button id="convertBtn" class="convert-btn">🚀 変換を実行</button>
+            </section>
+
+            <!-- ログ表示エリア -->
+            <section class="section" id="logSection" style="display: none;">
+                <h2>3. 変換結果</h2>
+                <div id="logArea" class="log-area"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>💡 使い方: WordPress の「ツール」→「エクスポート」からダウンロードした XML ファイルを選択し、「変換を実行」ボタンを押してください。</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
